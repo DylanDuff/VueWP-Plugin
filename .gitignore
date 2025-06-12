@@ -1,0 +1,25 @@
+# Node
+node_modules/
+dist/
+.vite/
+.cache/
+
+# Mac
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+
+# WordPress
+*.zip
+*.log
