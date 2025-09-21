@@ -1,0 +1,22 @@
+{
+  "prefix": {
+    "type": "string",
+    "default": "wpst_",
+    "description": "Plugin prefix for options and AJAX actions"
+  },
+  "custom_footer_enabled": {
+    "type": "boolean",
+    "default": true,
+    "description": "Enable custom footer text"
+  },
+  "custom_footer_text": {
+    "type": "string",
+    "default": "Powered by WordPress",
+    "description": "Custom footer text to replace the default WordPress version text"
+  },
+  "another_feature_enabled": {
+    "type": "boolean",
+    "default": false,
+    "description": "Enable another feature"
+  }
+}

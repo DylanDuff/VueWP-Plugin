@@ -1,5 +1,8 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-import "./style.css";
+import router from "./router"; // import router
+import "./assets/style.css";
 
-createApp(App).mount("#vue-options-app");
+const app = createApp(App);
+app.use(router);
+app.mount("#wp-notification-relay");
